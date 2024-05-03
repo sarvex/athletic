@@ -9,32 +9,32 @@ dependencies:
     specifier: ^0.4.0
     version: 0.4.0(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.5)
   '@astrojs/markdown-remark':
-    specifier: ^4.3.2
+    specifier: ^4.0.0
     version: 4.3.2
   '@astrojs/mdx':
-    specifier: ^2.3.1
+    specifier: ^2.0.0
     version: 2.3.1(astro@4.7.1)
   '@astrojs/prefetch':
     specifier: ^0.4.0
     version: 0.4.0
   '@astrojs/rss':
-    specifier: ^4.0.5
+    specifier: ^4.0.0
     version: 4.0.5
   '@astrojs/sitemap':
-    specifier: ^3.1.4
+    specifier: ^3.0.0
     version: 3.1.4
   '@astrojs/tailwind':
     specifier: ^5.0.0
     version: 5.0.0(astro@4.7.1)(tailwindcss@3.4.3)
   '@astrojs/vue':
-    specifier: ^4.1.0
+    specifier: ^4.0.0
     version: 4.1.0(astro@4.7.1)(vite@5.2.11)(vue@3.4.26)
   '@fontsource-variable/inter-tight':
     specifier: ^5.0.13
     version: 5.0.21
   '@nanostores/vue':
     specifier: ^0.10.0
-    version: 0.10.0(nanostores@0.9.3)(vue@3.4.26)
+    version: 0.10.0(nanostores@0.10.3)(vue@3.4.26)
   '@panzoom/panzoom':
     specifier: ^4.5.1
     version: 4.5.1
@@ -54,7 +54,7 @@ dependencies:
     specifier: ^10.4.1
     version: 10.4.1(async-validator@4.2.5)(vue@3.4.26)
   astro:
-    specifier: ^4.7.1
+    specifier: ^4.0.0
     version: 4.7.1(typescript@5.4.5)
   astro-compress:
     specifier: ^2.0.15
@@ -81,8 +81,8 @@ dependencies:
     specifier: ^4.2.0
     version: 4.2.0
   nanostores:
-    specifier: ^0.9.3
-    version: 0.9.3
+    specifier: ^0.10.0
+    version: 0.10.3
   rehype-external-links:
     specifier: ^3.0.0
     version: 3.0.0
@@ -1868,7 +1868,7 @@ packages:
       - supports-color
     dev: false
 
-  /@nanostores/vue@0.10.0(nanostores@0.9.3)(vue@3.4.26):
+  /@nanostores/vue@0.10.0(nanostores@0.10.3)(vue@3.4.26):
     resolution: {integrity: sha512-832RAUbzRfHPs1CdqVEwfvgB2+RD/INji4Zo8bUSEfRO2pQRMMeq479gydnohGpRaa0oNwlfKo7TGFXCghq/1g==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
@@ -1882,7 +1882,7 @@ packages:
       '@vue/devtools-api':
         optional: true
     dependencies:
-      nanostores: 0.9.3
+      nanostores: 0.10.3
       vue: 3.4.26(typescript@5.4.5)
     dev: false
 
@@ -2388,7 +2388,7 @@ packages:
   /@types/sax@1.2.7:
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 20.12.8
     dev: false
 
   /@types/ssri@7.1.2:
@@ -4472,7 +4472,7 @@ packages:
   /hast-util-parse-selector@3.1.1:
     resolution: {integrity: sha512-jdlwBjEexy1oGz0aJ2f4GKMaVKkA9jwjr4MjAAI22E5fM/TXVZHuS5OpONtdeIkRKqAaryQ2E9xNQxijoThSZA==}
     dependencies:
-      '@types/hast': 2.3.6
+      '@types/hast': 2.3.10
     dev: false
 
   /hast-util-parse-selector@4.0.0:
@@ -6529,9 +6529,9 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  /nanostores@0.9.3:
-    resolution: {integrity: sha512-KobZjcVyNndNrb5DAjfs0WG0lRcZu5Q1BOrfTOxokFLi25zFrWPjg+joXC6kuDqNfSt9fQwppyjUBkRPtsL+8w==}
-    engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
+  /nanostores@0.10.3:
+    resolution: {integrity: sha512-Nii8O1XqmawqSCf9o2aWqVxhKRN01+iue9/VEd1TiJCr9VT5XxgPFbF1Edl1XN6pwJcZRsl8Ki+z01yb/T/C2g==}
+    engines: {node: ^18.0.0 || >=20.0.0}
     dev: false
 
   /napi-build-utils@1.0.2:
