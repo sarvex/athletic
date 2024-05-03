@@ -9,25 +9,25 @@ dependencies:
     specifier: ^0.4.0
     version: 0.4.0(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.5)
   '@astrojs/markdown-remark':
-    specifier: ^4.3.2
+    specifier: ^4.0.0
     version: 4.3.2
   '@astrojs/mdx':
-    specifier: ^2.3.1
+    specifier: ^2.0.0
     version: 2.3.1(astro@4.7.1)
   '@astrojs/prefetch':
     specifier: ^0.4.0
     version: 0.4.0
   '@astrojs/rss':
-    specifier: ^4.0.5
+    specifier: ^4.0.0
     version: 4.0.5
   '@astrojs/sitemap':
-    specifier: ^3.1.4
+    specifier: ^3.0.0
     version: 3.1.4
   '@astrojs/tailwind':
     specifier: ^5.0.0
     version: 5.0.0(astro@4.7.1)(tailwindcss@3.4.3)
   '@astrojs/vue':
-    specifier: ^4.1.0
+    specifier: ^4.0.0
     version: 4.1.0(astro@4.7.1)(vite@5.2.11)(vue@3.4.26)
   '@fontsource-variable/inter-tight':
     specifier: ^5.0.13
@@ -54,7 +54,7 @@ dependencies:
     specifier: ^10.4.1
     version: 10.4.1(async-validator@4.2.5)(vue@3.4.26)
   astro:
-    specifier: ^4.7.1
+    specifier: ^4.0.0
     version: 4.7.1(typescript@5.4.5)
   astro-compress:
     specifier: ^2.0.15
@@ -116,8 +116,8 @@ devDependencies:
     specifier: ^1.0.3
     version: 1.0.3
   postcss-import:
-    specifier: ^16.0.0
-    version: 16.0.0(postcss@8.4.38)
+    specifier: ^16.1.0
+    version: 16.1.0(postcss@8.4.38)
   postcss-nesting:
     specifier: ^12.0.1
     version: 12.0.1(postcss@8.4.38)
@@ -4413,19 +4413,11 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /has@1.0.3:
-    resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==}
-    engines: {node: '>= 0.4.0'}
-    dependencies:
-      function-bind: 1.1.2
-    dev: true
-
   /hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
     dependencies:
       function-bind: 1.1.2
-    dev: false
 
   /hast-util-from-html@2.0.1:
     resolution: {integrity: sha512-RXQBLMl9kjKVNkJTIO6bZyb2n+cUH8LFaSSzo82jiLT6Tfc+Pt7VQCS+/h3YwG4jaNE2TA2sdJisGWR+aJrp0g==}
@@ -4849,17 +4841,10 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /is-core-module@2.13.0:
-    resolution: {integrity: sha512-Z7dk6Qo8pOCp3l4tsX2C5ZVas4V+UxwQodwZhLopL91TX8UyyHEXafPcyoeeWuLrwzHcr3igO78wNLwHJHsMCQ==}
-    dependencies:
-      has: 1.0.3
-    dev: true
-
   /is-core-module@2.13.1:
     resolution: {integrity: sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==}
     dependencies:
       hasown: 2.0.2
-    dev: false
 
   /is-decimal@2.0.1:
     resolution: {integrity: sha512-AAB9hiomQs5DXWcRB1rqsxGUstbRroFOPPVAomNk/3XHR5JyEZChOyTWe2oayKnsSsr/kcGqF+z6yuH6HHpN0A==}
@@ -6982,8 +6967,8 @@ packages:
       resolve: 1.22.8
     dev: false
 
-  /postcss-import@16.0.0(postcss@8.4.38):
-    resolution: {integrity: sha512-e77lhVvrD1I2y7dYmBv0k9ULTdArgEYZt97T4w6sFIU5uxIHvDFQlKgUUyY7v7Barj0Yf/zm5A4OquZN7jKm5Q==}
+  /postcss-import@16.1.0(postcss@8.4.38):
+    resolution: {integrity: sha512-7hsAZ4xGXl4MW+OKEWCnF6T5jqBw80/EE9aXg1r2yyn1RsVEU8EtKXbijEODa+rg7iih4bKf7vlvTGYR4CnPNg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       postcss: ^8.0.0
@@ -6991,7 +6976,7 @@ packages:
       postcss: 8.4.38
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
-      resolve: 1.22.6
+      resolve: 1.22.8
     dev: true
 
   /postcss-js@4.0.1(postcss@8.4.38):
@@ -7493,15 +7478,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /resolve@1.22.6:
-    resolution: {integrity: sha512-njhxM7mV12JfufShqGy3Rz8j11RPdLy4xi15UurGJeoHLfJpVXKdh3ueuOqbYUcDZnffr6X739JBo5LzyahEsw==}
-    hasBin: true
-    dependencies:
-      is-core-module: 2.13.0
-      path-parse: 1.0.7
-      supports-preserve-symlinks-flag: 1.0.0
-    dev: true
-
   /resolve@1.22.8:
     resolution: {integrity: sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==}
     hasBin: true
@@ -7509,7 +7485,6 @@ packages:
       is-core-module: 2.13.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
-    dev: false
 
   /restore-cursor@4.0.0:
     resolution: {integrity: sha512-I9fPXU9geO9bHOt9pHHOhOkYerIMsmVaWB0rA2AI9ERh/+x/i7MV5HKBNrg+ljO5eoPVgCcnFuRjJ9uH6I/3eg==}
