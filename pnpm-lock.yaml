@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@astrojs/check':
     specifier: ^0.4.0
-    version: 0.4.0(prettier-plugin-astro@0.12.0)(prettier@3.2.5)(typescript@5.2.2)
+    version: 0.4.0(prettier-plugin-astro@0.12.0)(prettier@3.2.5)(typescript@5.4.5)
   '@astrojs/markdown-remark':
     specifier: ^4.0.0
     version: 4.0.0(astro@4.0.3)
@@ -55,10 +55,10 @@ dependencies:
     version: 10.4.1(async-validator@4.2.5)(vue@3.4.26)
   astro:
     specifier: ^4.0.0
-    version: 4.0.3(typescript@5.2.2)
+    version: 4.0.3(typescript@5.4.5)
   astro-compress:
     specifier: ^2.0.15
-    version: 2.2.22(typescript@5.2.2)
+    version: 2.2.22(typescript@5.4.5)
   astro-critters:
     specifier: ^2.0.11
     version: 2.0.11
@@ -90,11 +90,11 @@ dependencies:
     specifier: ^3.3.3
     version: 3.4.3
   typescript:
-    specifier: ^5.2.2
-    version: 5.2.2
+    specifier: ^5.4.5
+    version: 5.4.5
   vue:
-    specifier: ^3.4.26
-    version: 3.4.26(typescript@5.2.2)
+    specifier: ^3.3.4
+    version: 3.4.26(typescript@5.4.5)
   vue3-popper:
     specifier: ^1.5.0
     version: 1.5.0(vue@3.4.26)
@@ -122,7 +122,7 @@ devDependencies:
     specifier: ^12.0.1
     version: 12.0.1(postcss@8.4.38)
   prettier:
-    specifier: ^3.2.5
+    specifier: ^3.0.3
     version: 3.2.5
   prettier-plugin-astro:
     specifier: ^0.12.0
@@ -165,17 +165,17 @@ packages:
     resolution: {integrity: sha512-gFPqTG7otEJ8uP6wrhDv6mqwGWYZKNvAcCq6u9hOj0c+IKCEsY4L1oC9trPq2SaWIzAfHvqfBDxF591JkMf+kg==}
     dev: false
 
-  /@astrojs/check@0.4.0(prettier-plugin-astro@0.12.0)(prettier@3.2.5)(typescript@5.2.2):
+  /@astrojs/check@0.4.0(prettier-plugin-astro@0.12.0)(prettier@3.2.5)(typescript@5.4.5):
     resolution: {integrity: sha512-hpHweo/9c9f2hYAUdqjGPOIWt6w/9eHHgzS9g8BhqsUgGs9EJdAndSzM4rErR7WCjZOt0hHSzG6HF0CkSogDtA==}
     hasBin: true
     peerDependencies:
       typescript: ^5.0.0
     dependencies:
-      '@astrojs/language-server': 2.6.0(prettier-plugin-astro@0.12.0)(prettier@3.2.5)(typescript@5.2.2)
+      '@astrojs/language-server': 2.6.0(prettier-plugin-astro@0.12.0)(prettier@3.2.5)(typescript@5.4.5)
       chokidar: 3.5.3
       fast-glob: 3.3.2
       kleur: 4.1.5
-      typescript: 5.2.2
+      typescript: 5.4.5
       yargs: 17.7.2
     transitivePeerDependencies:
       - prettier
@@ -205,7 +205,7 @@ packages:
     resolution: {integrity: sha512-6B13lz5n6BrbTqCTwhXjJXuR1sqiX/H6rTxzlXx+lN1NnV4jgnq/KJldCQaUWJzPL5SiWahQyinxAbxQtwgPHA==}
     dev: false
 
-  /@astrojs/language-server@2.6.0(prettier-plugin-astro@0.12.0)(prettier@3.2.5)(typescript@5.2.2):
+  /@astrojs/language-server@2.6.0(prettier-plugin-astro@0.12.0)(prettier@3.2.5)(typescript@5.4.5):
     resolution: {integrity: sha512-AkakYB5PaJOedW6cvkARludQ6p14kDwLDSu+tzUrYU2KreMx0Je1H2DC6gSL6tF20f+ckkZO3GifHpvbkAgrwg==}
     hasBin: true
     peerDependencies:
@@ -219,7 +219,7 @@ packages:
     dependencies:
       '@astrojs/compiler': 2.4.0
       '@jridgewell/sourcemap-codec': 1.4.15
-      '@volar/kit': 1.11.1(typescript@5.2.2)
+      '@volar/kit': 1.11.1(typescript@5.4.5)
       '@volar/language-core': 1.11.1
       '@volar/language-server': 1.11.1
       '@volar/language-service': 1.11.1
@@ -247,7 +247,7 @@ packages:
       astro: ^4.0.0-beta.0
     dependencies:
       '@astrojs/prism': 3.0.0
-      astro: 4.0.3(typescript@5.2.2)
+      astro: 4.0.3(typescript@5.4.5)
       github-slugger: 2.0.0
       import-meta-resolve: 4.0.0
       mdast-util-definitions: 6.0.0
@@ -299,7 +299,7 @@ packages:
       '@astrojs/markdown-remark': 4.0.0(astro@4.0.3)
       '@mdx-js/mdx': 3.0.0
       acorn: 8.11.2
-      astro: 4.0.3(typescript@5.2.2)
+      astro: 4.0.3(typescript@5.4.5)
       es-module-lexer: 1.4.1
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -356,7 +356,7 @@ packages:
       astro: ^3.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.0.3(typescript@5.2.2)
+      astro: 4.0.3(typescript@5.4.5)
       autoprefixer: 10.4.16(postcss@8.4.31)
       postcss: 8.4.31
       postcss-load-config: 4.0.1(postcss@8.4.31)
@@ -391,8 +391,8 @@ packages:
       '@vitejs/plugin-vue-jsx': 3.1.0(vite@5.2.11)(vue@3.4.26)
       '@vue/babel-plugin-jsx': 1.1.5(@babel/core@7.24.5)
       '@vue/compiler-sfc': 3.3.11
-      astro: 4.0.3(typescript@5.2.2)
-      vue: 3.4.26(typescript@5.2.2)
+      astro: 4.0.3(typescript@5.4.5)
+      vue: 3.4.26(typescript@5.4.5)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -2355,7 +2355,7 @@ packages:
         optional: true
     dependencies:
       nanostores: 0.9.3
-      vue: 3.4.26(typescript@5.2.2)
+      vue: 3.4.26(typescript@5.4.5)
     dev: false
 
   /@nodelib/fs.scandir@2.1.5:
@@ -2453,7 +2453,7 @@ packages:
     peerDependencies:
       '@playform/document': 0.0.5
     dependencies:
-      '@playform/document': 0.0.6(typescript@5.2.2)
+      '@playform/document': 0.0.6(typescript@5.4.5)
       '@types/node': 20.12.4
       commander: 12.0.0
       deepmerge-ts: 5.1.0
@@ -2463,13 +2463,13 @@ packages:
       typescript: 5.4.4
     dev: false
 
-  /@playform/document@0.0.6(typescript@5.2.2):
+  /@playform/document@0.0.6(typescript@5.4.5):
     resolution: {integrity: sha512-birdfwDtVwbSSi/cyHfQwLaqQG9oVsaJESL8ORu2smJBDqHNPYj/sP5jDyRtIbp3+oaWfsaxM4iXoQtYmzpLGQ==}
     hasBin: true
     dependencies:
       commander: 12.0.0
       fast-glob: 3.3.2
-      typedoc: 0.25.12(typescript@5.2.2)
+      typedoc: 0.25.12(typescript@5.4.5)
       typedoc-plugin-keywords: 1.6.0(typedoc@0.25.12)
       typedoc-plugin-mdn-links: 3.1.19(typedoc@0.25.12)
       typedoc-plugin-merge-modules: 5.1.0(typedoc@0.25.12)
@@ -3013,7 +3013,7 @@ packages:
       '@babel/plugin-transform-typescript': 7.23.5(@babel/core@7.23.5)
       '@vue/babel-plugin-jsx': 1.1.5(@babel/core@7.23.5)
       vite: 5.2.11(lightningcss@1.24.1)(terser@5.30.3)
-      vue: 3.4.26(typescript@5.2.2)
+      vue: 3.4.26(typescript@5.4.5)
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -3026,17 +3026,17 @@ packages:
       vue: ^3.2.25
     dependencies:
       vite: 5.2.11(lightningcss@1.24.1)(terser@5.30.3)
-      vue: 3.4.26(typescript@5.2.2)
+      vue: 3.4.26(typescript@5.4.5)
     dev: false
 
-  /@volar/kit@1.11.1(typescript@5.2.2):
+  /@volar/kit@1.11.1(typescript@5.4.5):
     resolution: {integrity: sha512-nqO+Hl9f1ygOK/3M7Hpnw0lhKvuMFhh823nilStpkTmm5WfrUnE+4WaQkb3dC6LM3TZq74j2m88yxRC+Z3sZZw==}
     peerDependencies:
       typescript: '*'
     dependencies:
       '@volar/language-service': 1.11.1
       typesafe-path: 0.2.2
-      typescript: 5.2.2
+      typescript: 5.4.5
       vscode-languageserver-textdocument: 1.0.11
       vscode-uri: 3.0.8
     dev: false
@@ -3255,7 +3255,7 @@ packages:
     dependencies:
       '@vue/compiler-ssr': 3.4.26
       '@vue/shared': 3.4.26
-      vue: 3.4.26(typescript@5.2.2)
+      vue: 3.4.26(typescript@5.4.5)
     dev: false
 
   /@vue/shared@3.3.11:
@@ -3499,16 +3499,16 @@ packages:
     hasBin: true
     dev: false
 
-  /astro-compress@2.2.22(typescript@5.2.2):
+  /astro-compress@2.2.22(typescript@5.4.5):
     resolution: {integrity: sha512-0oGFjm0T+3eA+gsx75r3WnujWBSb72H3Ihn5wgrLFqAl0h/vopgt6ew8JzL5xogrLqeqs1EbpZwmCK5lLOaZUQ==}
     deprecated: astro-compress has been deprecated, use @playform/compress
     dependencies:
       '@playform/build': 0.0.5(@playform/document@0.0.6)
-      '@playform/document': 0.0.6(typescript@5.2.2)
+      '@playform/document': 0.0.6(typescript@5.4.5)
       '@playform/pipe': 0.0.2
       '@types/csso': 5.0.4
       '@types/html-minifier-terser': 7.0.2
-      astro: 4.5.16(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.2.2)
+      astro: 4.5.16(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5)
       csso: 5.0.5
       html-minifier-terser: 7.2.0
       kleur: 4.1.5
@@ -3550,7 +3550,7 @@ packages:
       astro: '>=0.26 || >=1.0.0-beta'
     dependencies:
       '@astropub/codecs': 0.4.4
-      astro: 4.0.3(typescript@5.2.2)
+      astro: 4.0.3(typescript@5.4.5)
       file-type: 17.1.1
       find-cache-dir: 3.3.2
       find-up: 6.3.0
@@ -3572,7 +3572,7 @@ packages:
       - supports-color
     dev: false
 
-  /astro@4.0.3(typescript@5.2.2):
+  /astro@4.0.3(typescript@5.4.5):
     resolution: {integrity: sha512-hrwe7CIVhSKW8/iibDs1hpqzZAtvx6Qu8TFFxjaGbooEWF720M9L+ZZtyTgrcy6K/ZHJ0xwFvZV3/X2Vvbf/LQ==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
@@ -3630,7 +3630,7 @@ packages:
       shikiji: 0.6.13
       string-width: 7.0.0
       strip-ansi: 7.1.0
-      tsconfck: 3.0.0(typescript@5.2.2)
+      tsconfck: 3.0.0(typescript@5.4.5)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
       vite: 5.0.7
@@ -3652,7 +3652,7 @@ packages:
       - typescript
     dev: false
 
-  /astro@4.5.16(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.2.2):
+  /astro@4.5.16(lightningcss@1.24.1)(terser@5.30.3)(typescript@5.4.5):
     resolution: {integrity: sha512-1nOVsMq2OJiXnG6gO0Y77vTAboGN9nLQSy/8SGazq4h6x+alzbsMbQbArBgvaLzOSUXD0m91XLs3D8bOSuavrQ==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
@@ -3710,7 +3710,7 @@ packages:
       shiki: 1.4.0
       string-width: 7.1.0
       strip-ansi: 7.1.0
-      tsconfck: 3.0.3(typescript@5.2.2)
+      tsconfck: 3.0.3(typescript@5.4.5)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
       vite: 5.2.11(lightningcss@1.24.1)(terser@5.30.3)
@@ -9081,7 +9081,7 @@ packages:
       plimit-lit: 1.6.1
     dev: false
 
-  /tsconfck@3.0.0(typescript@5.2.2):
+  /tsconfck@3.0.0(typescript@5.4.5):
     resolution: {integrity: sha512-w3wnsIrJNi7avf4Zb0VjOoodoO0woEqGgZGQm+LHH9przdUI+XDKsWAXwxHA1DaRTjeuZNcregSzr7RaA8zG9A==}
     engines: {node: ^18 || >=20}
     hasBin: true
@@ -9091,10 +9091,10 @@ packages:
       typescript:
         optional: true
     dependencies:
-      typescript: 5.2.2
+      typescript: 5.4.5
     dev: false
 
-  /tsconfck@3.0.3(typescript@5.2.2):
+  /tsconfck@3.0.3(typescript@5.4.5):
     resolution: {integrity: sha512-4t0noZX9t6GcPTfBAbIbbIU4pfpCwh0ueq3S4O/5qXI1VwK1outmxhe9dOiEWqMz3MW2LKgDTpqWV+37IWuVbA==}
     engines: {node: ^18 || >=20}
     hasBin: true
@@ -9104,7 +9104,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      typescript: 5.2.2
+      typescript: 5.4.5
     dev: false
 
   /tslib@2.6.2:
@@ -9129,7 +9129,7 @@ packages:
     peerDependencies:
       typedoc: ^0.25.4
     dependencies:
-      typedoc: 0.25.12(typescript@5.2.2)
+      typedoc: 0.25.12(typescript@5.4.5)
       typescript: 5.4.5
     dev: false
 
@@ -9138,7 +9138,7 @@ packages:
     peerDependencies:
       typedoc: '>= 0.23.14 || 0.24.x || 0.25.x'
     dependencies:
-      typedoc: 0.25.12(typescript@5.2.2)
+      typedoc: 0.25.12(typescript@5.4.5)
     dev: false
 
   /typedoc-plugin-merge-modules@5.1.0(typedoc@0.25.12):
@@ -9146,7 +9146,7 @@ packages:
     peerDependencies:
       typedoc: 0.24.x || 0.25.x
     dependencies:
-      typedoc: 0.25.12(typescript@5.2.2)
+      typedoc: 0.25.12(typescript@5.4.5)
     dev: false
 
   /typedoc-plugin-remove-references@0.0.6:
@@ -9159,7 +9159,7 @@ packages:
       typedoc: 0.22.x || 0.23.x || 0.24.x || 0.25.x
     dependencies:
       camelcase: 8.0.0
-      typedoc: 0.25.12(typescript@5.2.2)
+      typedoc: 0.25.12(typescript@5.4.5)
     dev: false
 
   /typedoc-plugin-zod@1.1.2(typedoc@0.25.12):
@@ -9167,10 +9167,10 @@ packages:
     peerDependencies:
       typedoc: 0.23.x || 0.24.x || 0.25.x
     dependencies:
-      typedoc: 0.25.12(typescript@5.2.2)
+      typedoc: 0.25.12(typescript@5.4.5)
     dev: false
 
-  /typedoc@0.25.12(typescript@5.2.2):
+  /typedoc@0.25.12(typescript@5.4.5):
     resolution: {integrity: sha512-F+qhkK2VoTweDXd1c42GS/By2DvI2uDF4/EpG424dTexSHdtCH52C6IcAvMA6jR3DzAWZjHpUOW+E02kyPNUNw==}
     engines: {node: '>= 16'}
     hasBin: true
@@ -9181,7 +9181,7 @@ packages:
       marked: 4.3.0
       minimatch: 9.0.4
       shiki: 0.14.7
-      typescript: 5.2.2
+      typescript: 5.4.5
     dev: false
 
   /typesafe-path@0.2.2:
@@ -9192,12 +9192,6 @@ packages:
     resolution: {integrity: sha512-Rq6/q4O9iyqUdjvOoyas7x/Qf9nWUMeqpP3YeTaLA+uECgfy5wOhfOS+SW/+fZ/uI/ZcKaf+2/ZhFzXh8xfofQ==}
     dependencies:
       semver: 7.5.4
-    dev: false
-
-  /typescript@5.2.2:
-    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
-    engines: {node: '>=14.17'}
-    hasBin: true
     dev: false
 
   /typescript@5.4.4:
@@ -9720,7 +9714,7 @@ packages:
       '@vue/composition-api':
         optional: true
     dependencies:
-      vue: 3.4.26(typescript@5.2.2)
+      vue: 3.4.26(typescript@5.4.5)
     dev: false
 
   /vue3-popper@1.5.0(vue@3.4.26):
@@ -9731,7 +9725,7 @@ packages:
     dependencies:
       '@popperjs/core': 2.11.8
       debounce: 1.2.1
-      vue: 3.4.26(typescript@5.2.2)
+      vue: 3.4.26(typescript@5.4.5)
     dev: false
 
   /vue3-toastify@0.2.1(vue@3.4.26):
@@ -9743,10 +9737,10 @@ packages:
       vue:
         optional: true
     dependencies:
-      vue: 3.4.26(typescript@5.2.2)
+      vue: 3.4.26(typescript@5.4.5)
     dev: false
 
-  /vue@3.4.26(typescript@5.2.2):
+  /vue@3.4.26(typescript@5.4.5):
     resolution: {integrity: sha512-bUIq/p+VB+0xrJubaemrfhk1/FiW9iX+pDV+62I/XJ6EkspAO9/DXEjbDFoe8pIfOZBqfk45i9BMc41ptP/uRg==}
     peerDependencies:
       typescript: '*'
@@ -9759,7 +9753,7 @@ packages:
       '@vue/runtime-dom': 3.4.26
       '@vue/server-renderer': 3.4.26(vue@3.4.26)
       '@vue/shared': 3.4.26
-      typescript: 5.2.2
+      typescript: 5.4.5
     dev: false
 
   /web-namespaces@2.0.1:
