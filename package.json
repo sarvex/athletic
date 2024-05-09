@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.4.0",
-    "@astrojs/markdown-remark": "^4.0.0",
-    "@astrojs/mdx": "^2.0.0",
+    "@astrojs/markdown-remark": "^5.0.0",
+    "@astrojs/mdx": "^3.0.0",
     "@astrojs/prefetch": "^0.4.0",
     "@astrojs/rss": "^4.0.0",
     "@astrojs/sitemap": "^3.0.0",
