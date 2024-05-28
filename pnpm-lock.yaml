@@ -18,16 +18,16 @@ dependencies:
     specifier: ^0.4.0
     version: 0.4.0
   '@astrojs/rss':
-    specifier: ^4.0.6
+    specifier: ^4.0.0
     version: 4.0.6
   '@astrojs/sitemap':
-    specifier: ^3.1.5
+    specifier: ^3.0.0
     version: 3.1.5
   '@astrojs/tailwind':
     specifier: ^5.0.0
     version: 5.0.0(astro@4.9.2)(tailwindcss@3.4.3)
   '@astrojs/vue':
-    specifier: ^4.3.0
+    specifier: ^4.0.0
     version: 4.3.0(astro@4.9.2)(vite@5.2.11)(vue@3.4.26)
   '@fontsource-variable/inter-tight':
     specifier: ^5.0.13
@@ -51,10 +51,10 @@ dependencies:
     specifier: ^10.4.1
     version: 10.10.0(vue@3.4.26)
   '@vueuse/integrations':
-    specifier: ^10.4.1
-    version: 10.4.1(async-validator@4.2.5)(vue@3.4.26)
+    specifier: ^10.10.0
+    version: 10.10.0(async-validator@4.2.5)(vue@3.4.26)
   astro:
-    specifier: ^4.9.2
+    specifier: ^4.0.0
     version: 4.9.2(typescript@5.4.5)
   astro-compress:
     specifier: ^2.0.15
@@ -3170,8 +3170,8 @@ packages:
       - vue
     dev: false
 
-  /@vueuse/integrations@10.4.1(async-validator@4.2.5)(vue@3.4.26):
-    resolution: {integrity: sha512-uRBPyG5Lxoh1A/J+boiioPT3ELEAPEo4t8W6Mr4yTKIQBeW/FcbsotZNPr4k9uz+3QEksMmflWloS9wCnypM7g==}
+  /@vueuse/integrations@10.10.0(async-validator@4.2.5)(vue@3.4.26):
+    resolution: {integrity: sha512-vHGeK7X6mkdkpcm1eE9t3Cpm21pNVfZRwrjwwbrEs9XftnSgszF4831G2rei8Dt9cIYJIfFV+iyx/29muimJPQ==}
     peerDependencies:
       async-validator: '*'
       axios: '*'
@@ -3211,10 +3211,10 @@ packages:
       universal-cookie:
         optional: true
     dependencies:
-      '@vueuse/core': 10.4.1(vue@3.4.26)
-      '@vueuse/shared': 10.4.1(vue@3.4.26)
+      '@vueuse/core': 10.10.0(vue@3.4.26)
+      '@vueuse/shared': 10.10.0(vue@3.4.26)
       async-validator: 4.2.5
-      vue-demi: 0.14.6(vue@3.4.26)
+      vue-demi: 0.14.7(vue@3.4.26)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
