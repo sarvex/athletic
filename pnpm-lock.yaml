@@ -45,8 +45,8 @@ dependencies:
     specifier: ^3.0.0
     version: 3.0.0(@remark-embedder/core@3.0.3)
   '@vueuse/components':
-    specifier: ^10.4.1
-    version: 10.4.1(vue@3.4.26)
+    specifier: ^10.10.0
+    version: 10.10.0(vue@3.4.26)
   '@vueuse/core':
     specifier: ^10.4.1
     version: 10.10.0(vue@3.4.26)
@@ -3130,12 +3130,12 @@ packages:
     resolution: {integrity: sha512-DL3NmY2OFlqmYYrzp39yi3LDkKxa5vZVwxWdQ3rG0ekuWscHraeIbnI8t+aZK7qhYqEqWKTUdijadunb9pnrgA==}
     dev: false
 
-  /@vueuse/components@10.4.1(vue@3.4.26):
-    resolution: {integrity: sha512-hEWeumCfH394fkEYc/hng6T5VcjVkdqx7b75Sd6z4Uw3anjeo93Zp9qqtzFOv5bAmHls3Zy04Kowo1glrxDFRQ==}
+  /@vueuse/components@10.10.0(vue@3.4.26):
+    resolution: {integrity: sha512-HiA10NQ9HJAGnju+8ZK4TyA8LIc0a6BnJmVWDa/k+TRhaYCVacSDU04k0BQ2otV+gghUDdwu98upf6TDRXpoeg==}
     dependencies:
-      '@vueuse/core': 10.4.1(vue@3.4.26)
-      '@vueuse/shared': 10.4.1(vue@3.4.26)
-      vue-demi: 0.14.6(vue@3.4.26)
+      '@vueuse/core': 10.10.0(vue@3.4.26)
+      '@vueuse/shared': 10.10.0(vue@3.4.26)
+      vue-demi: 0.14.7(vue@3.4.26)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
