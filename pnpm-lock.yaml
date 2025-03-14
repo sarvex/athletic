@@ -36,8 +36,8 @@ dependencies:
     specifier: ^0.10.0
     version: 0.10.0(nanostores@0.9.3)(vue@3.4.26)
   '@panzoom/panzoom':
-    specifier: ^4.5.1
-    version: 4.5.1
+    specifier: ^4.6.0
+    version: 4.6.0
   '@remark-embedder/core':
     specifier: ^3.0.2
     version: 3.0.3
@@ -2409,8 +2409,8 @@ packages:
     dev: true
     optional: true
 
-  /@panzoom/panzoom@4.5.1:
-    resolution: {integrity: sha512-QOr/t7314XTwgAUDazR+RDcTAWSbkpjDnZJddd9f56jSUA8ptUsyDblAb+sp/O5O1o5Fiu9KpWxVHKuhGUgp5w==}
+  /@panzoom/panzoom@4.6.0:
+    resolution: {integrity: sha512-3KxkY1lNKFn98fW5ZFR6vV0YzsXj3I4EQDyFWSXME6/cic86eSS7VjuqIjrA3PEpySo0r5fFtlX8eYCt4JPUFQ==}
     dev: false
 
   /@pkgjs/parseargs@0.11.0:
