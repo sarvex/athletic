@@ -31,7 +31,7 @@
     "@astrojs/tailwind": "^5.0.0",
     "@astrojs/vue": "^4.0.0",
     "@fontsource-variable/inter-tight": "^5.0.13",
-    "@nanostores/vue": "^0.10.0",
+    "@nanostores/vue": "^0.11.0",
     "@panzoom/panzoom": "^4.5.1",
     "@remark-embedder/core": "^3.0.2",
     "@remark-embedder/transformer-oembed": "^3.0.0",
