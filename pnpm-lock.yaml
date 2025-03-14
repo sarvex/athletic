@@ -34,7 +34,7 @@ dependencies:
     version: 5.2.5
   '@nanostores/vue':
     specifier: ^0.11.0
-    version: 0.11.0(nanostores@0.9.3)(vue@3.4.26)
+    version: 0.11.0(nanostores@0.11.4)(vue@3.4.26)
   '@panzoom/panzoom':
     specifier: ^4.5.1
     version: 4.6.0
@@ -81,8 +81,8 @@ dependencies:
     specifier: ^4.2.0
     version: 4.2.0
   nanostores:
-    specifier: ^0.9.3
-    version: 0.9.3
+    specifier: ^0.11.0
+    version: 0.11.4
   rehype-external-links:
     specifier: ^3.0.0
     version: 3.0.0
@@ -1715,7 +1715,7 @@ packages:
       - supports-color
     dev: false
 
-  /@nanostores/vue@0.11.0(nanostores@0.9.3)(vue@3.4.26):
+  /@nanostores/vue@0.11.0(nanostores@0.11.4)(vue@3.4.26):
     resolution: {integrity: sha512-4ndyLhwVFl1xhOnvWuMvYiG4K2rYvkaQWP3nJC1/RwK/dvpDgLPywwv6MnBdFydqbOGuXNaXOEwa3HsG9CujmA==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     peerDependencies:
@@ -1729,7 +1729,7 @@ packages:
       '@vue/devtools-api':
         optional: true
     dependencies:
-      nanostores: 0.9.3
+      nanostores: 0.11.4
       vue: 3.4.26(typescript@5.4.5)
     dev: false
 
@@ -6798,9 +6798,9 @@ packages:
     hasBin: true
     dev: false
 
-  /nanostores@0.9.3:
-    resolution: {integrity: sha512-KobZjcVyNndNrb5DAjfs0WG0lRcZu5Q1BOrfTOxokFLi25zFrWPjg+joXC6kuDqNfSt9fQwppyjUBkRPtsL+8w==}
-    engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
+  /nanostores@0.11.4:
+    resolution: {integrity: sha512-k1oiVNN4hDK8NcNERSZLQiMfRzEGtfnvZvdBvey3SQbgn8Dcrk0h1I6vpxApjb10PFUflZrgJ2WEZyJQ+5v7YQ==}
+    engines: {node: ^18.0.0 || >=20.0.0}
     dev: false
 
   /napi-build-utils@1.0.2:
