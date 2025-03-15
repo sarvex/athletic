@@ -93,7 +93,7 @@ dependencies:
     specifier: ^5.2.2
     version: 5.4.5
   vue:
-    specifier: ^3.5.13
+    specifier: ^3.3.4
     version: 3.5.13(typescript@5.4.5)
   vue3-popper:
     specifier: ^1.5.0
@@ -119,8 +119,8 @@ devDependencies:
     specifier: ^16.0.0
     version: 16.0.0(postcss@8.5.3)
   postcss-nesting:
-    specifier: ^12.0.1
-    version: 12.0.1(postcss@8.5.3)
+    specifier: ^13.0.0
+    version: 13.0.1(postcss@8.5.3)
   prettier:
     specifier: ^3.0.3
     version: 3.5.3
@@ -743,13 +743,22 @@ packages:
       '@babel/helper-validator-identifier': 7.25.9
     dev: false
 
-  /@csstools/selector-specificity@3.0.0(postcss-selector-parser@6.0.13):
-    resolution: {integrity: sha512-hBI9tfBtuPIi885ZsZ32IMEU/5nlZH/KOVYJCOh7gyMxaVLGmLedYqFN6Ui1LXkI8JlC8IsuC0rF0btcRZKd5g==}
-    engines: {node: ^14 || ^16 || >=18}
+  /@csstools/selector-resolve-nested@3.0.0(postcss-selector-parser@7.1.0):
+    resolution: {integrity: sha512-ZoK24Yku6VJU1gS79a5PFmC8yn3wIapiKmPgun0hZgEI5AOqgH2kiPRsPz1qkGv4HL+wuDLH83yQyk6inMYrJQ==}
+    engines: {node: '>=18'}
     peerDependencies:
-      postcss-selector-parser: ^6.0.13
+      postcss-selector-parser: ^7.0.0
     dependencies:
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 7.1.0
+    dev: true
+
+  /@csstools/selector-specificity@5.0.0(postcss-selector-parser@7.1.0):
+    resolution: {integrity: sha512-PCqQV3c4CoVm3kdPhyeZ07VmBRdH2EpMFA/pd9OASpOEC3aXNGoqPDAZ80D0cLpMBxnmk0+yNhGsEx31hq7Gtw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      postcss-selector-parser: ^7.0.0
+    dependencies:
+      postcss-selector-parser: 7.1.0
     dev: true
 
   /@emmetio/abbreviation@2.3.3:
@@ -7250,15 +7259,16 @@ packages:
       postcss-selector-parser: 6.1.2
     dev: false
 
-  /postcss-nesting@12.0.1(postcss@8.5.3):
-    resolution: {integrity: sha512-6LCqCWP9pqwXw/njMvNK0hGY44Fxc4B2EsGbn6xDcxbNRzP8GYoxT7yabVVMLrX3quqOJ9hg2jYMsnkedOf8pA==}
-    engines: {node: ^14 || ^16 || >=18}
+  /postcss-nesting@13.0.1(postcss@8.5.3):
+    resolution: {integrity: sha512-VbqqHkOBOt4Uu3G8Dm8n6lU5+9cJFxiuty9+4rcoyRPO9zZS1JIs6td49VIoix3qYqELHlJIn46Oih9SAKo+yQ==}
+    engines: {node: '>=18'}
     peerDependencies:
       postcss: ^8.4
     dependencies:
-      '@csstools/selector-specificity': 3.0.0(postcss-selector-parser@6.0.13)
+      '@csstools/selector-resolve-nested': 3.0.0(postcss-selector-parser@7.1.0)
+      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.1.0)
       postcss: 8.5.3
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 7.1.0
     dev: true
 
   /postcss-selector-parser@6.0.13:
@@ -7276,6 +7286,14 @@ packages:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
     dev: false
+
+  /postcss-selector-parser@7.1.0:
+    resolution: {integrity: sha512-8sLjZwK0R+JlxlYcTuVnyT2v+htpdrjDOKuMcOVdYjt52Lh8hWRYpxBPoKx/Zg+bcjc3wx6fmQevMmUztS/ccA==}
+    engines: {node: '>=4'}
+    dependencies:
+      cssesc: 3.0.0
+      util-deprecate: 1.0.2
+    dev: true
 
   /postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
