@@ -78,8 +78,8 @@ importers:
         specifier: ^4.2.5
         version: 4.2.5
       convert:
-        specifier: ^4.13.2
-        version: 4.13.2
+        specifier: ^5.0.0
+        version: 5.12.1
       js-convert-case:
         specifier: ^4.2.0
         version: 4.2.0
@@ -1607,8 +1607,8 @@ packages:
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
 
-  convert@4.13.2:
-    resolution: {integrity: sha512-KLkCaBqef9QiPJ5bSxF66h8x5MnnqI3mUs8uwF70X6CmqeXgGsvCfHO6D/KmvhQan0HrjoRC/NGJWeRSuVWgqg==}
+  convert@5.12.1:
+    resolution: {integrity: sha512-NCXXAyYM+kHIxmHfBAkq2qH3wLt/vxCsduC1ItkvDjzMhGRZSfTeMDUGljs8/Ho9Nk1GblKZsnUdHYCrHYtmRA==}
 
   cookie-es@1.2.2:
     resolution: {integrity: sha512-+W7VmiVINB+ywl1HGXJXmrqkOhpKrIiVZV6tQuV54ZyQC7MMuBt81Vc336GMLoHBq5hV/F9eXgt5Mnx0Rha5Fg==}
@@ -6008,7 +6008,7 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
-  convert@4.13.2: {}
+  convert@5.12.1: {}
 
   cookie-es@1.2.2: {}
 
