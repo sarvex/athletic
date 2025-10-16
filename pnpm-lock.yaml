@@ -28,7 +28,7 @@ importers:
         version: 3.3.0
       '@astrojs/tailwind':
         specifier: ^6.0.0
-        version: 6.0.2(astro@5.14.5(@types/node@24.7.2)(jiti@1.21.7)(lightningcss@1.29.3)(rollup@4.52.4)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))(tailwindcss@4.1.2)
+        version: 6.0.2(astro@5.14.5(@types/node@24.7.2)(jiti@1.21.7)(lightningcss@1.29.3)(rollup@4.52.4)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))(tailwindcss@4.1.14)
       '@astrojs/vue':
         specifier: ^5.0.0
         version: 5.0.9(@types/node@24.7.2)(astro@5.14.5(@types/node@24.7.2)(jiti@1.21.7)(lightningcss@1.29.3)(rollup@4.52.4)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))(jiti@1.21.7)(lightningcss@1.29.3)(rollup@4.52.4)(terser@5.39.0)(vue@3.5.13(typescript@5.8.2))(yaml@2.7.0)
@@ -91,7 +91,7 @@ importers:
         version: 3.0.0
       tailwindcss:
         specifier: ^4.0.0
-        version: 4.1.2
+        version: 4.1.14
       typescript:
         specifier: ^5.2.2
         version: 5.8.2
@@ -3967,8 +3967,8 @@ packages:
     engines: {node: '>=14.0.0'}
     hasBin: true
 
-  tailwindcss@4.1.2:
-    resolution: {integrity: sha512-VCsK+fitIbQF7JlxXaibFhxrPq4E2hDcG8apzHUdWFMCQWD8uLdlHg4iSkZ53cgLCCcZ+FZK7vG8VjvLcnBgKw==}
+  tailwindcss@4.1.14:
+    resolution: {integrity: sha512-b7pCxjGO98LnxVkKjaZSDeNuljC4ueKUddjENJOADtubtdo8llTaJy7HwBMeLNSSo2N5QIAgklslK1+Ir8r6CA==}
 
   tar-fs@2.1.1:
     resolution: {integrity: sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng==}
@@ -4786,13 +4786,13 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.2
 
-  '@astrojs/tailwind@6.0.2(astro@5.14.5(@types/node@24.7.2)(jiti@1.21.7)(lightningcss@1.29.3)(rollup@4.52.4)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))(tailwindcss@4.1.2)':
+  '@astrojs/tailwind@6.0.2(astro@5.14.5(@types/node@24.7.2)(jiti@1.21.7)(lightningcss@1.29.3)(rollup@4.52.4)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))(tailwindcss@4.1.14)':
     dependencies:
       astro: 5.14.5(@types/node@24.7.2)(jiti@1.21.7)(lightningcss@1.29.3)(rollup@4.52.4)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
       autoprefixer: 10.4.21(postcss@8.5.3)
       postcss: 8.5.3
       postcss-load-config: 4.0.2(postcss@8.5.3)
-      tailwindcss: 4.1.2
+      tailwindcss: 4.1.14
     transitivePeerDependencies:
       - ts-node
 
@@ -9547,7 +9547,7 @@ snapshots:
       csso: 5.0.5
       picocolors: 1.1.1
 
-  tailwindcss@4.1.2: {}
+  tailwindcss@4.1.14: {}
 
   tar-fs@2.1.1:
     dependencies:
