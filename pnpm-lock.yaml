@@ -34,7 +34,7 @@ importers:
         version: 5.0.9(@types/node@24.7.2)(astro@5.14.5(@types/node@24.7.2)(jiti@1.21.7)(lightningcss@1.29.3)(rollup@4.52.4)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))(jiti@1.21.7)(lightningcss@1.29.3)(rollup@4.52.4)(terser@5.39.0)(vue@3.5.13(typescript@5.8.2))(yaml@2.7.0)
       '@fontsource-variable/inter-tight':
         specifier: ^5.0.13
-        version: 5.2.5
+        version: 5.2.7
       '@nanostores/vue':
         specifier: ^0.11.0
         version: 0.11.0(nanostores@0.11.4)(vue@3.5.13(typescript@5.8.2))
@@ -575,8 +575,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource-variable/inter-tight@5.2.5':
-    resolution: {integrity: sha512-f7WqR3BQ7YmWT+3i1bR1mqQ1FoIDCfmwKRTENEARFRtkhhR4JPxzF+rB3T75AjZ+dTjIx/nO47LOQDLFWAwJWA==}
+  '@fontsource-variable/inter-tight@5.2.7':
+    resolution: {integrity: sha512-uU0qW9vlzVQQv8GVrhn8SlNl2A44C0CE9IC6N9P0D9mwhmJcg8UF/fxvmdRayDPlMAnYqxlXtYENDIeZyVvxkg==}
 
   '@iconify/tools@4.1.1':
     resolution: {integrity: sha512-Hybu/HGhv6T8nLQhiG9rKx+ekF7NNpPOEQAy7JRSKht3s3dcFSsPccYzk24Znc9MTxrR6Gak3cg6CPP5dyvS2Q==}
@@ -5159,7 +5159,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.11':
     optional: true
 
-  '@fontsource-variable/inter-tight@5.2.5': {}
+  '@fontsource-variable/inter-tight@5.2.7': {}
 
   '@iconify/tools@4.1.1':
     dependencies:
